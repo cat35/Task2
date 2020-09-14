@@ -17,10 +17,6 @@ public class Task {
 
         for (Customer customer : list) {
             customer.join();
-        }
-
-
-        for (Customer customer : list) {
             sumOfPurchases += customer.getPurchase();
             System.out.println(customer.getGoods() + " " + " | " + customer.getPurchase());
         }
